@@ -1,0 +1,28 @@
+n_runs: 3
+epochs: 20
+checkpoint_freq: 10
+lr: 0.001
+
+dataset: 'noisysine'
+batch_size: 5
+hidden_sizes: # hidden layers for the ODE/encoder/decoder MLPs
+  - 50
+  - 50
+dim_r: 50 # Dimension of representation of context points
+dim_z_prime: 40 # Dimension of sampled latent variable
+dim_l: 10
+context_range: [1, 10]
+extra_target_range: [1, 5]
+test_context_size: 10
+sigma: 0.1
+#dataset: 'rotnist'
+#batch_size: 10
+#hidden_sizes: # hidden layers for the ODE MLP
+#  - 50
+#  - 50
+#dim_r: 50
+#dim_z_prime: 30
+#dim_l: 10
+#context_range: [4, 7]
+#extra_target_range: [1, 8]
+#test_context_size: 7
