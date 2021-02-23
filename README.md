@@ -10,11 +10,11 @@ If you have any questions, feel free to get into touch with us at first_name.las
 
 Model predictions on an example from the sine dataset, after training, and MSE curves during training (on the sine dataset, with default hyper-parameters) :
 
-<img src="/Users/alexandre/development/school/Reproducing-Neural-ODE-Processes/img/sine.png" alt="sine" style="zoom:24%;" /><img src="/Users/alexandre/development/school/Reproducing-Neural-ODE-Processes/img/sine_training.png" style="zoom:24%;" />
+<img src="img/sine.png" alt="sine" style="zoom:24%;" /><img src="img/sine_training.png" style="zoom:24%;" />
 
 Model predictions (bottom row) on an example of the RotNIST dataset. Top row contains all target points, and mid row contains context points :
 
-<img src="/Users/alexandre/development/school/Reproducing-Neural-ODE-Processes/img/rotnist.png" alt="rotnist" style="zoom:9%;" />
+<img src="img/rotnist.png" alt="rotnist" style="zoom:9%;" />
 
 ## Code structure
 
